@@ -1,0 +1,82 @@
+.tablist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .tab {
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    min-height: 30px;
+    min-width: 129px;
+    @media screen and (max-width: 990px) {
+      min-width: 110px;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+    &:first-child {
+      border-radius: 8px 0px 0px 8px;
+    }
+    &:last-child {
+      border-radius: 0px 8px 8px 0px;
+    }
+    &.active {
+      background: #ff611d;
+      border: 1px solid #ff611d;
+      color: white;
+    }
+  }
+}
+
+.signupBox {
+  padding-bottom: 80px !important;
+  img {
+    max-width: 100%;
+    @media screen {
+    }
+  }
+  h1 {
+    //styleName: Heading3;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    color: #000000;
+
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .routesTopage {
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0em;
+      color: black;
+      span {
+        color: #ff611d;
+      }
+    }
+  }
+  .termsPage {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 24px;
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      color: black;
+      span {
+        color: #0aa0f4;
+      }
+    }
+  }
+}

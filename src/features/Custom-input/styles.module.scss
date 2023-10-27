@@ -1,0 +1,47 @@
+.inputBox {
+  max-width: 100%;
+  width: 100%;
+  .label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    display: block;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .input {
+    padding: 4px 10px;
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    border: 1px solid #c4c4c4;
+    z-index: 100;
+    border-radius: 4px;
+
+    :global {
+      .MuiInputAdornment-root {
+        margin-left: 8px;
+        svg {
+          max-width: 20px;
+        }
+      }
+      .MuiInputAdornment-positionEnd {
+        margin-left: 0px;
+        margin-right: 9px;
+      }
+      .MuiInputBase-root {
+        input {
+          padding-right: 10px;
+        }
+        &::before {
+          display: none;
+        }
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}

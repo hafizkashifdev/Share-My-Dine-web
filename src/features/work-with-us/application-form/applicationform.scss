@@ -1,0 +1,27 @@
+
+.applicationfield{
+
+    .MuiInputBase-root {
+        padding: 0;
+        border-radius: 8px;
+        height: 44px;
+    
+        &.Mui-focused fieldset {
+          border-color: rgba(255, 164, 18, 0.45);
+        }
+    
+        .MuiInputBase-input {
+          padding: 10px 16px;
+          font-family: "Work Sans", sans-serif !important;
+          color: #1e293b;
+        }
+    
+        .MuiOutlinedInput-notchedOutline {
+          border: 1.5px solid #e5e7eb;
+        }
+    
+        &:hover .MuiOutlinedInput-notchedOutline {
+          border-color: rgba(255, 164, 18, 0.45);
+        }
+      }
+}

@@ -1,0 +1,22 @@
+export const pageRoutes = {
+  home: "/",
+  ourCollection: "/our-collection",
+  careers: "/careers",
+  BlogDetailPage: "/blog-detail-page",
+  blog: "/blog",
+  GiftCardPage: "/gift-card-page",
+  WhatWeDo: "/what-we-do",
+  Faqs: "/faqs",
+  signup: "/signup",
+  login: "/login",
+  privacyPolicy: "/privacy-policy",
+  cookiePolicy: "/cookies-policies",
+  termsConditions: "/terms-and-condition",
+  ExploreRecipesPage: "/explore-recipes",
+  exploreOurChef: "/explore-our-chef",
+  singleChef: "/single-chef",
+  EatHealthyPage: "/eat-healthy",
+  ourSquad: "/our-squad",
+  talkToUs: "/talk-to-us",
+  WorkWithUs:'/work-with-us'
+};

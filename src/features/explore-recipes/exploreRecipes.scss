@@ -1,0 +1,7 @@
+.text-change {
+    transition: transform 0.3s ease;
+}
+.text-change:hover {
+  transform: scale(1.6) !important;
+  color: #FF8945 !important;
+}

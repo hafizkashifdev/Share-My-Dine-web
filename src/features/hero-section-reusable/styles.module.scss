@@ -1,0 +1,77 @@
+.hero2 {
+  position: relative;
+  padding: 80px 0;
+  padding-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 992px) {
+    min-height: auto;
+  }
+  .image1 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    max-width: 100%;
+    @media screen and (max-width: 1300px) {
+      display: none;
+    }
+  }
+  .image2 {
+    position: absolute;
+    right: 0;
+    top: 70%;
+    transform: translate(0, -50%);
+    max-width: 100%;
+    @media screen and (max-width: 1300px) {
+      display: none;
+    }
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &::after {
+      content: "";
+      background-image: url("../../assets/images/our-collection/bg-hero-reusable.png");
+      position: absolute;
+      top: -106px;
+      width: 1000px;
+      height: 800px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      transform: translate(-50%, 0);
+      left: 40%;
+      @media screen and (max-width: 990px) {
+        display: none;
+      }
+    }
+    h1 {
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 67px;
+      color: #1e293b;
+      max-width: 1087px;
+      text-align: center;
+      margin-bottom: 26px;
+      @media screen and (max-width: 990px) {
+        font-size: 40px;
+        line-height: 50px;
+      }
+    }
+    p {
+      font-size: 18px;
+      max-width: 850px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #6b7280;
+      text-align: center;
+      @media screen and (max-width: 990px) {
+        font-size: 16px;
+        line-height: 23px;
+      }
+    }
+  }
+}
